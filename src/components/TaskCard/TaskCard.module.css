@@ -1,0 +1,131 @@
+.taskCardContainer {
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    width: auto;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    box-shadow: 1px 1px 2px 2px #E4E6F0;
+}
+
+
+.taskHeader {
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    display: inline-block; 
+    width: 100%;
+
+}
+
+.taskContent {
+    padding-top: 0.6em;
+    line-height: 2em;
+}
+
+.percentDone {
+    background-color: #76DB74;
+    padding: 0.4em;
+    border-radius: 10px;
+    margin-bottom: 0.6em;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-left: 1em;
+    float: right; 
+  }
+  
+
+ /*Tag*/ 
+ .tagStyles {
+    display: flex;
+  }
+
+
+.labelTag {
+    background-color: white;
+    font-size: 0.8em;
+    border-radius: 10px;
+    padding: 0.4em;
+    width: auto;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-right: 1em;
+}
+
+.labelcolor1 {
+  border: 1px solid #40A5FF;
+  color: #40A5FF;
+}
+
+.labelcolor2 {
+  border: 1px solid #4ECDC4;
+  color: #4ECDC4;
+}
+
+.labelcolor3 {
+  border: 1px solid #afcd4e;
+  color: #afcd4e;
+}
+
+
+.taskBtnContainer {
+    border-top: 0.2px solid #D3D9E7;
+}
+
+.removeBtn {
+    background-color: #FD5780 !important;
+    color: white;
+    margin-top: 0.6em;
+}
+
+.completeBtn {
+    background-color: #76DB74 !important;
+    color: white;
+    margin-top: 0.6em;
+    margin-right: 0.6em;
+}
+
+/*Edit Button*/
+.editBtn {
+    background-color: transparent !important;
+    float: right; /* Align the button to the right */
+    margin-left: 10px;
+    margin-bottom: 2px; 
+    margin-top: 0.6em;
+    color: black !important;
+ }
+
+    .editBtn:hover {
+        background-color: #575D75 !important;
+}
+
+/*Subtask Content */
+.subTaskContent {
+    padding-top: 0.6em;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+.subTaskContent ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+.subTaskContent li {
+    align-items: left;
+    justify-content: start;
+    border-color: #F2F4FA;
+}
+    
+  .subTaskHeader {
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+  }
+  
+  .subTaskHeader h4 {
+    margin: 0; 
+  }

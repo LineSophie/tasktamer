@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+/*
+APP.JS STYLES
+*/
+
+.todo-app {
+  width: auto;
+  margin: 0;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: white !important;
+  padding: 0.5em;
+  margin: 0;
+  background-color: #9571FA;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+}
+
+.tab-page {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  width: 70vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.main .tab-page {
+  display: block;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.task-input button {
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-input button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.task-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-to-do {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-to-do h1 {
+  display: inline;
+}
+
+.addTaskBtn {
+  background-color: transparent !important;
+  border: none;
+  color: #9571FA60;
+  margin: 1em;
+  padding: 0;
+  font-size: 1em;
+}
+
+.addTaskBtn:hover {
+  color: #9571FA;
+}
+
+.dateDiv {
+  border: 2px solid #D2CEFC;
+  padding: 0.6em;
+  float: right !important;
+  border-radius: 10px;
+  display: inline;
+  font-size: 0.8em;
+  margin-right: 1em;
+  font-weight: 700;
+  color: #D2CEFC;
+}
+
+.headerDiv { 
+  display: flex;
+  align-items: center;
+  width:100%; 
+  justify-content: space-between;
+}
+
+.headerTaskCount {
+ color: #fff;
+ font-size: 0.8em;
+ font-weight: lighter;
+ background-color: #D2CEFC;
+ border-radius: 50%;
+ width: 1.5em;
+ height: 1.5em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0.2em;
+ margin-left:1em;
 }

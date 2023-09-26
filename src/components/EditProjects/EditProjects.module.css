@@ -1,0 +1,40 @@
+.headerEditProject {
+    text-align: center;
+    border-bottom: 0.4px solid #ccc;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+
+.editProjectsDiv {
+display: flex !important;
+align-items: center; /* Align items vertically in the center */
+}
+
+.removeProjectBtn {
+    background-color: transparent !important;
+    border: none;
+    color: #333333 !important;
+  }
+
+  .addBtn {
+    background-color: transparent !important;
+    border: none !important;
+    color: #9571FA !important;
+    padding: 0;
+    font-size: 0.8em;
+    margin-right: 0.4em;
+    margin-left: 0 !important;
+  }
+
+  .SaveCloseDiv {
+    border-top: 0.4px solid #ccc;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 1em;
+  }
+
+  .SaveCloseBtn {
+    width: 45% !important;
+  }
