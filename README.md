@@ -1,25 +1,26 @@
 # TaskTamer 🚀
 
-TaskTamer is a simple To-Do application that allows you to create, edit, and manage tasks. 
+TaskTamer is a simple web application that allows you to create, edit, and manage tasks. 
 
 ![TaskTamer App](src/previewImg/previewImg.png) <br/><br/>
 
 ## Features 
 
-📝 **Add Tasks**: Add new tasks, including title, description, due date, priority level, tags, projects, and subtasks.
+- **Add Tasks** 📝 : Create new tasks and add information such as the title, description, due date, priority level, tag, project, and subtasks.
 
-✔️  **Subtask Tracking**: Break down complex tasks into manageable subtasks and mark them off as you complete them.
+- **Track Progress** ✅ : Manage the task progress by checking off subtasks and monitor your overall completion status.
 
-✏️  **Edit Tasks**: Need to make changes? Just edit them.
+- **Edit Tasks** ✏️ : Make changes to the task after it has been created.
 
-🛠️ **Customizable**: Create custom projects and tags to organize/filter tasks. 
+- **Customize Lists** 🛠️ : Create custom projects/tags to organize and filter tasks.
 
-🗃️ **Archive Or Delete Completed Tasks**: Completed tasks can be archived to keep your main task list clean.
+- **Archive Completed Tasks** 🗃️ : Automatically archive your tasks by marking them as complete.
+
+- **Delete Tasks** 🚮 : Permanently delete any unwanted tasks. 
 
 <br/>
 
 ## Getting Started 
-
 1. Clone this repository to your local machine.
 2. Install the required dependencies using `npm install`.
 3. Start the development server with `npm start`.

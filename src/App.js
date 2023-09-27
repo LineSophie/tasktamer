@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './App.css';
-import Modal from './components/ToDoModal/ToDoModal';
+import ToDoModal from './components/ToDoModal/ToDoModal';
 import Sidebar from './components/Sidebar/Sidebar';
 import TaskCardList from './components/TaskCardList/TaskCardList';
 import DeleteTaskConfirmation from './components/DeleteTaskConfirmation/DeleteTaskConfirmation';
@@ -201,7 +201,7 @@ function App() {
           />
 
           {isAddTaskModalOpen && 
-            <Modal 
+            <ToDoModal
               onClose={closeModal} 
               onSave={addTask} 
               directories={projects} 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './ToDoModal.module.css';
 
-function Modal({ onClose, onSave, directories, newTag }) {
+function ToDoModal({ onClose, onSave, directories, newTag }) {
 
   const initialFormData = {
     taskTitle: '',
@@ -96,7 +96,6 @@ function Modal({ onClose, onSave, directories, newTag }) {
             />
           </div>
 
-          {/* Due Date */}
           <div className={styles.inputContainer}>
             <label htmlFor="dueDate">Due Date</label>
             <input
@@ -108,7 +107,6 @@ function Modal({ onClose, onSave, directories, newTag }) {
             />
           </div>
 
-          {/* Tag */}
           <div className={styles.inputContainer}>
             <label htmlFor="tags">Tag</label>
             <select
@@ -126,7 +124,6 @@ function Modal({ onClose, onSave, directories, newTag }) {
             </select>
           </div>
 
-          {/* Priority Level */}
           <div className={styles.inputContainer}>
             <label htmlFor="priorityLevel">Priority</label>
             <select
@@ -141,7 +138,6 @@ function Modal({ onClose, onSave, directories, newTag }) {
             </select>
           </div>
 
-          {/* Directory */}
           <div className={styles.inputContainer}>
             <label htmlFor="directory">Project</label>
             <select
@@ -159,7 +155,6 @@ function Modal({ onClose, onSave, directories, newTag }) {
             </select>
           </div>
 
-          {/* SubTask Management */}
           <div className={styles.inputContainer}>
             <label htmlFor="subtask">Subtasks</label>
             <input
@@ -194,4 +189,4 @@ function Modal({ onClose, onSave, directories, newTag }) {
   );
 }
 
-export default Modal;
+export default ToDoModal;
