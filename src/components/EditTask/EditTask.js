@@ -31,7 +31,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
         <div className={styles.modalContent}>
           <h2 className={styles.editTaskHeader}>⭐️ Edit Task ⭐️</h2>
 
-          {/* Task Title */}
           <div className={styles.inputContainer}>
             <label htmlFor='editTaskTitle'>Task Title</label><br/>
             <input
@@ -45,7 +44,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             />
           </div>
 
-          {/* Task Description */}
           <div className={styles.inputContainer}>
             <label htmlFor='editTaskDescription'>Edit Task Description</label><br/>
             <textarea 
@@ -60,7 +58,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             />
           </div>
 
-          {/* Due Date */}
           <div className={styles.inputContainer}>
             <label htmlFor='editDueDate'>Due Date</label><br/>
             <input
@@ -73,7 +70,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             />
           </div>
 
-          {/* Priority Level */}
           <div className={styles.inputContainer}>
             <label htmlFor='editPriorityLevel'>Priority</label><br/>
             <select
@@ -89,7 +85,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             </select>
           </div>
 
-          {/* Dropdown for directories */}
           <div className={styles.inputContainer}>
             <label htmlFor='editProject'>Project</label><br/>
             <select
@@ -108,7 +103,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             </select>
           </div>
 
-          {/* Dropdown for labels/tags */}
           <div className={styles.inputContainer}>
             <label htmlFor='editTag'>Tag</label><br/>
             <select
@@ -127,7 +121,6 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
             </select>
           </div>
 
-          {/* SubTask Management */}
           <div className={styles.inputContainer}>
             <label htmlFor='editSubtask'>SubTasks</label>
                 <button  
@@ -155,8 +148,8 @@ function EditTask({ editTask, onSaveEdit, onClose, directories, tags }) {
 
           <hr /><br />
           <div className={styles.closeSaveDiv}> 
-          <button onClick={handleSaveEdit}>Save</button>
-          <button onClick={onClose}>Cancel</button>
+            <button onClick={handleSaveEdit}>Save</button>
+            <button onClick={onClose}>Cancel</button>
           </div>
         </div>
       </div>
